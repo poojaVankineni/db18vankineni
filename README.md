@@ -1,6 +1,6 @@
 # fwb18vankineni
 
-[Hosted my heroku server](https://fwb18vankineni.herokuapp.com/)
+[Hosted my heroku server](https://db18vankineni.herokuapp.com/)
 
 Class - Dog class Dog{ 
 constructor(dogType, price, color){ 
