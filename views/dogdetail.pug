@@ -1,0 +1,26 @@
+extends layout 
+ 
+block content 
+  h1= title 
+ 
+  if (toShow == null)
+    h2 No instance to delete
+  else
+    - let dogID = toShow._id
+    - let dogType = toShow.dogType
+    - let price = toShow.price
+    - let capacity = toShow.capacity
+
+    div 
+    div.row 
+      div(class='costumeAttr mr-3') Dog ID is: 
+      div #{dogID} 
+    div.row 
+      div(class='costumeAttr mr-3') Dog Type is: 
+      div #{dogType} 
+    div.row 
+      div(class='costumeAttr mr-3') Dog Size is: 
+      div #{price} 
+    div.row 
+      div(class='costumeAttr mr-3') Dog Color is: 
+      div #{color} 
